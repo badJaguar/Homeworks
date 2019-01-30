@@ -8,3 +8,13 @@ C:\Users\aleks\source\repos\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.pdb
 C:\Users\aleks\source\repos\Mediaplayer\Mediaplayer\bin\Debug\MediaData.dll
 C:\Users\aleks\source\repos\Mediaplayer\Mediaplayer\bin\Debug\MediaData.pdb
 C:\Users\aleks\source\repos\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.csproj.CopyComplete
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\bin\Debug\Mediaplayer.exe.config
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\bin\Debug\Mediaplayer.exe
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\bin\Debug\Mediaplayer.pdb
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\bin\Debug\MediaData.dll
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\bin\Debug\MediaData.pdb
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.csprojAssemblyReference.cache
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.csproj.CoreCompileInputs.cache
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.csproj.CopyComplete
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.exe
+C:\Users\-\Documents\GitHub\Homeworks\Mediaplayer\Mediaplayer\obj\Debug\Mediaplayer.pdb

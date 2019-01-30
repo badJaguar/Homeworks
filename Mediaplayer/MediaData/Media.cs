@@ -6,7 +6,7 @@ namespace MediaData
     public abstract class Media : IMedia
     {
         /// <inheritdoc />
-        public virtual string[] Songs { get; set; } = {"Song1", "Song2"};
+        public virtual string[] Songs { get; set; } = { "Song1", "Song2" };
 
         /// <inheritdoc />
         public string[] Videos { get; set; }

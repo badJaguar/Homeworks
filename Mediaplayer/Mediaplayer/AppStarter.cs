@@ -7,7 +7,7 @@ namespace Mediaplayer
     /// </summary>
     public class AppStarter
     {
-        public Activator _activator;
+        private readonly Activator _activator;
 
         // TODO: Dependency inversion principal violated.
         public AppStarter()
