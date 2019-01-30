@@ -44,7 +44,6 @@ namespace Mediaplayer
         /// <summary>
         /// Changes file format.
         /// </summary>
-        /// <param name="format">File format on which you want to change present.</param>
         /// <param name="fileName">One or lots of input files.</param>
         public static void FormatChange(string fileName)
         {
