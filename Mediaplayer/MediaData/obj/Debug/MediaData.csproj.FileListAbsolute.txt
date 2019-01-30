@@ -1,0 +1,6 @@
+C:\Users\aleks\source\repos\Mediaplayer\MediaData\obj\Debug\MediaData.csprojAssemblyReference.cache
+C:\Users\aleks\source\repos\Mediaplayer\MediaData\obj\Debug\MediaData.csproj.CoreCompileInputs.cache
+C:\Users\aleks\source\repos\Mediaplayer\MediaData\bin\Debug\MediaData.dll
+C:\Users\aleks\source\repos\Mediaplayer\MediaData\bin\Debug\MediaData.pdb
+C:\Users\aleks\source\repos\Mediaplayer\MediaData\obj\Debug\MediaData.dll
+C:\Users\aleks\source\repos\Mediaplayer\MediaData\obj\Debug\MediaData.pdb
