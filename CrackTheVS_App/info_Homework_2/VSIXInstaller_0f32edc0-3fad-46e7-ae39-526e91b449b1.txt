@@ -1,0 +1,448 @@
+﻿08.02.2019 9:48:59 - Microsoft VSIX Installer
+08.02.2019 9:48:59 - -------------------------------------------
+08.02.2019 9:48:59 - vsixinstaller.exe version:
+08.02.2019 9:48:59 - 15.9.3039
+08.02.2019 9:48:59 - -------------------------------------------
+08.02.2019 9:48:59 - Command line parameters:
+08.02.2019 9:48:59 - C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\ServiceHub\Services\Microsoft.VisualStudio.Setup.Service\VSIXInstaller.exe,C:\Users\-\Downloads\MZTools8VSPackage.vsix
+08.02.2019 9:48:59 - -------------------------------------------
+08.02.2019 9:48:59 - Microsoft VSIX Installer
+08.02.2019 9:48:59 - -------------------------------------------
+08.02.2019 9:49:05 - Initializing Install...
+08.02.2019 9:49:05 - Подробности расширения...
+08.02.2019 9:49:05 - 	Identifier         : d28b64fb-eef8-4582-8daf-f136dd04f328
+08.02.2019 9:49:05 - 	Name               : MZ-Tools
+08.02.2019 9:49:05 - 	Author             : MZTools Software
+08.02.2019 9:49:05 - 	Version            : 8.0.0.1502
+08.02.2019 9:49:05 - 	Description        : MZ-Tools productivity plug-in for Visual Studio. For more information, visit http://www.mztools.com
+08.02.2019 9:49:05 - 	Locale             : en-US
+08.02.2019 9:49:05 - 	MoreInfoURL        : http://www.mztools.com/
+08.02.2019 9:49:05 - 	InstalledByMSI     : False
+08.02.2019 9:49:05 - 	SupportedFrameworkVersionRange : [4.5,)
+08.02.2019 9:49:05 - 
+08.02.2019 9:49:06 - 	SignatureState     : ValidSignature
+08.02.2019 9:49:06 - 	SignedBy           : Carlos Quintero
+08.02.2019 9:49:06 - 	Certificate Info   : 
+08.02.2019 9:49:06 - 		-------------------------------------------------------
+08.02.2019 9:49:06 - 		[Subject]       : CN=Carlos Quintero, O=Carlos Quintero, STREET=Géminis 21 Bajo, STREET=Urbanización Miraval, L=Alalpardo-Valdeolmos, S=Madrid, PostalCode=28130, C=ES
+08.02.2019 9:49:06 - 		[Issuer]        : CN=COMODO RSA Code Signing CA, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB
+08.02.2019 9:49:06 - 		[Serial Number] : 0113A941E8CE91ADA7DC953C8EBA7A51
+08.02.2019 9:49:06 - 		[Not Before]    : 22.01.2018 3:00:00
+08.02.2019 9:49:06 - 		[Not After]     : 22.01.2021 2:59:59
+08.02.2019 9:49:06 - 		[Thumbprint]    : D72DCA27668D8053C6CA5250FF5BED9388865104
+08.02.2019 9:49:06 - 
+08.02.2019 9:49:06 - 	Поддерживаемые продукты : 
+08.02.2019 9:49:06 - 		Microsoft.VisualStudio.Pro
+08.02.2019 9:49:06 - 			Version : [14.0,17.0)
+08.02.2019 9:49:06 - 
+08.02.2019 9:49:06 - 	Ссылки             : 
+08.02.2019 9:49:06 - 	Предварительные требования : 
+08.02.2019 9:49:06 - 		-------------------------------------------------------
+08.02.2019 9:49:06 - 		Identifier   : Microsoft.VisualStudio.Component.CoreEditor
+08.02.2019 9:49:06 - 		Name         : Visual Studio core editor
+08.02.2019 9:49:06 - 		Version      : [15.0,)
+08.02.2019 9:49:06 - 
+08.02.2019 9:49:06 - Состав подписи...
+08.02.2019 9:49:06 - 	Extension is signed with a valid signature.
+08.02.2019 9:49:06 - 
+08.02.2019 9:49:06 - Поиск применимых продуктов...
+08.02.2019 9:49:06 - Найден установленный продукт - Глобальное расположение
+08.02.2019 9:49:06 - Найден установленный продукт - ssms
+08.02.2019 9:49:06 - Найден установленный продукт - Visual Studio Community 2017
+08.02.2019 9:49:06 - Capping recursion at 5 directories in each extension root due to 'default limit'.
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\zq2obtwo.o1j\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\zmvnuj3n.cyw\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\zizq1sfm.ptb\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\ywq5o2i5.ryf\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\yjrei1nc.kes\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\x3spxubm.iy1\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\wsip5iun.qnf\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\VSSDK\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\vpmthc1o.kz1\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\veiqx1qc.sbw\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\v5pr4wgv.vha\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\TestWindow.Dotnet\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\TestPlatform\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\svf4uxbe.rfv\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\qub3c4ok.v1v\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\PreEmptiveSolutions\DotfuscatorCE\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\o3rkgae4.ems\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\neoyltg4.bmz\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools Diagnostics\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\Resource Manager\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\RemoteDebugger2.2CTP\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\RemoteDebugger\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\Deployment Project\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\Common\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools Azure\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools Azure\WebJobs\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools Azure\ru\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools\Shared\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools\Library Manager\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web\Mvc\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web\Mvc\Scaffolding\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\WCF Connected Service\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio Tools for Unity\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\14.0\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\12.0\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\11.0\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\10.0\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\VC\ClassWizard\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Unit Test Explorer\TestWIExtension\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\TemplateEngine\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\SQLEditor\Vsix\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\SQLDB\Vsix\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\SQLDB\SSDTUpdate\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Publish\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Portable Library Tools\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Modeling\15.0\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Microsoft Office 365 Connected Service\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\ManagedProjectSystem\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\CodeSense\Framework\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\ADL Tools\2.3.7000.0\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\kzmqwvys.iuq\extension.vsixmanifest'
+08.02.2019 9:49:06 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\jixjdf4u.nps\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\ifcnfrm5.na3\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\hdqg42bz.ck3\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\gqqzsqai.2v0\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\GitHub\GitHub\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\fzb104b4.fzt\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\fldfgssw.v3t\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\fkpwklwm.vn4\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\ewhaeoya.fnh\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\eljob5zl.bhj\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\dalofp4i.xbm\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\chvzxqpj.w4y\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\atfm2vvn.3hs\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\anvcgh0c.i33\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\41t33m3p.xqm\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\3npakkoh.yf1\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\3dirqi3p.qqy\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\1voqhn4b.ji3\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\0104n003.i2v\extension.vsixmanifest'
+08.02.2019 9:49:07 - Capping recursion at 5 directories in each extension root due to 'default limit'.
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\Visual Studio MPF\15.0\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\TreeNavigation\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\TreeNavigation\GraphProvider\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\Shell\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\PerfMarkers\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\ParallelDebugger\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\NavigateTo\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\NavigateTo\FileProvider\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\DotNetObjectAlloc\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\DiagnosticsHub\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\Debugger\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\CPUSampling\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\XamlLanguageService\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\XamlDiagnostics\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Language Service\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\WebDiagnosticsAttach\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\ToolWindows\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\EdgeDebugAdapter\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\ChromeDebugAdapter\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Web\Razor\v3.0\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Web\Exports\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Web\ASPX\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VisualStudio\Editors\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\Project\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\NavigateTo\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\Editor\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TypeScript\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TextMate\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TestWindow\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TemplateProviders\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TeamFoundation\Team Explorer\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ReferenceManager\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\RazorLanguageServices\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ProjectServices\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Project\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ProductUpdate\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Performance Tools\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\OpenFolder\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\NuGet\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\SourceBasedTestDiscovery\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\LanguageServices\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\InteractiveComponents\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\ExpressionEvaluators\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\LanguageServer\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Language\GenerateType\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Language\CallHierarchy\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\InteractiveWindow\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\GettingStartedTemplates\Resources\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\FSharp\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ExtensionManager\ServiceModule\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ErrorList\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Editorconfig\Wizard\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Editor\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Diff\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\DesignTools\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\CodingConventions\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\CodeAnalysis\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ClientDiagnostics\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ClientDiagnostics\AppResponsiveness\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ASP.NET Core\UserSecrets\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\Solution\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\NativeCode\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\ManagedProvider\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\LayerDsl\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\GraphProviderPackage\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\DataDesign\extension.vsixmanifest'
+08.02.2019 9:49:07 - Capping recursion at 5 directories in each extension root due to 'default limit'.
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\zsi2ivkc.qrp\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\u2d2fhvy.wjy\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\u0ckccop.cxw\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\td2gpdek.w0m\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\t0n5ynhw.dsg\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\sgidwnhx.5qs\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\rxztjho4.z4z\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\rxrrxkgi.mt1\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\paok1a5v.qes\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\o1cp4h3y.qfu\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\ngqgwoil.gk5\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\jldnu4x4.uwh\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\JetBrains\ReSharperPlatformVs15\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\idxxfyib.lyw\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\gpa2npgz.vis\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\dolejbwc.djb\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\dof34ytm.y2b\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\diw1z5fp.smi\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\df1ymeik.l02\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\5yt0oybc.tqn\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\2aro11i4.zq0\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\1jpii3yl.xu0\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\0qxexyyq.bff\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\0gsaxj0e.vwp\extension.vsixmanifest'
+08.02.2019 9:49:07 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\03w1thkl.lwe\extension.vsixmanifest'
+08.02.2019 9:49:08 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\10\Desktop SDK\extension.vsixmanifest'
+08.02.2019 9:49:08 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\10\SDK ARM Additions\extension.vsixmanifest'
+08.02.2019 9:49:08 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\10\Windows Store SDK\extension.vsixmanifest'
+08.02.2019 9:49:08 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\8.1\Desktop SDK\extension.vsixmanifest'
+08.02.2019 9:49:08 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\8.1\Windows Store SDK\extension.vsixmanifest'
+08.02.2019 9:49:08 - Skipping 'C:\Users\-\AppData\Local\Microsoft SDKs' as it doesn't exist
+08.02.2019 9:49:08 - Расширение с идентификатором "d28b64fb-eef8-4582-8daf-f136dd04f328" не установлено в Visual Studio Community 2017.
+08.02.2019 9:49:12 - BEGIN: Processing extension pack
+08.02.2019 9:49:12 - END: Processing extension pack
+08.02.2019 9:49:12 - Initializing Install...
+08.02.2019 9:49:12 - Подробности расширения...
+08.02.2019 9:49:12 - 	Identifier         : d28b64fb-eef8-4582-8daf-f136dd04f328
+08.02.2019 9:49:12 - 	Name               : MZ-Tools
+08.02.2019 9:49:12 - 	Author             : MZTools Software
+08.02.2019 9:49:12 - 	Version            : 8.0.0.1502
+08.02.2019 9:49:12 - 	Description        : MZ-Tools productivity plug-in for Visual Studio. For more information, visit http://www.mztools.com
+08.02.2019 9:49:12 - 	Locale             : en-US
+08.02.2019 9:49:12 - 	MoreInfoURL        : http://www.mztools.com/
+08.02.2019 9:49:12 - 	InstalledByMSI     : False
+08.02.2019 9:49:12 - 	SupportedFrameworkVersionRange : [4.5,)
+08.02.2019 9:49:12 - 
+08.02.2019 9:49:12 - 	SignatureState     : ValidSignature
+08.02.2019 9:49:12 - 	SignedBy           : Carlos Quintero
+08.02.2019 9:49:12 - 	Certificate Info   : 
+08.02.2019 9:49:12 - 		-------------------------------------------------------
+08.02.2019 9:49:12 - 		[Subject]       : CN=Carlos Quintero, O=Carlos Quintero, STREET=Géminis 21 Bajo, STREET=Urbanización Miraval, L=Alalpardo-Valdeolmos, S=Madrid, PostalCode=28130, C=ES
+08.02.2019 9:49:12 - 		[Issuer]        : CN=COMODO RSA Code Signing CA, O=COMODO CA Limited, L=Salford, S=Greater Manchester, C=GB
+08.02.2019 9:49:12 - 		[Serial Number] : 0113A941E8CE91ADA7DC953C8EBA7A51
+08.02.2019 9:49:12 - 		[Not Before]    : 22.01.2018 3:00:00
+08.02.2019 9:49:12 - 		[Not After]     : 22.01.2021 2:59:59
+08.02.2019 9:49:12 - 		[Thumbprint]    : D72DCA27668D8053C6CA5250FF5BED9388865104
+08.02.2019 9:49:12 - 
+08.02.2019 9:49:12 - 	Поддерживаемые продукты : 
+08.02.2019 9:49:12 - 		Microsoft.VisualStudio.Pro
+08.02.2019 9:49:12 - 			Version : [14.0,17.0)
+08.02.2019 9:49:12 - 
+08.02.2019 9:49:12 - 	Ссылки             : 
+08.02.2019 9:49:12 - 	Предварительные требования : 
+08.02.2019 9:49:12 - 		-------------------------------------------------------
+08.02.2019 9:49:12 - 		Identifier   : Microsoft.VisualStudio.Component.CoreEditor
+08.02.2019 9:49:12 - 		Name         : Visual Studio core editor
+08.02.2019 9:49:12 - 		Version      : [15.0,)
+08.02.2019 9:49:12 - 
+08.02.2019 9:49:12 - Состав подписи...
+08.02.2019 9:49:12 - 	Extension is signed with a valid signature.
+08.02.2019 9:49:12 - 
+08.02.2019 9:49:12 - Поиск применимых продуктов...
+08.02.2019 9:49:12 - Найден установленный продукт - Глобальное расположение
+08.02.2019 9:49:12 - Найден установленный продукт - ssms
+08.02.2019 9:49:12 - Найден установленный продукт - Visual Studio Community 2017
+08.02.2019 9:49:12 - Расширение с идентификатором "d28b64fb-eef8-4582-8daf-f136dd04f328" не установлено в Visual Studio Community 2017.
+08.02.2019 9:59:56 - InstallProgressPage ChangeType: 'SingleInstall' operationCount: '2' Text: 'Идет установка MZ-Tools...'
+08.02.2019 9:59:56 - Были выбраны следующие конечные продукты...
+08.02.2019 9:59:56 - 	Visual Studio Community 2017
+08.02.2019 9:59:56 - 
+08.02.2019 9:59:56 - Capping recursion at 5 directories in each extension root due to 'default limit'.
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\zq2obtwo.o1j\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\zmvnuj3n.cyw\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\zizq1sfm.ptb\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\ywq5o2i5.ryf\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\yjrei1nc.kes\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\x3spxubm.iy1\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\wsip5iun.qnf\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\VSSDK\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\vpmthc1o.kz1\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\veiqx1qc.sbw\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\v5pr4wgv.vha\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\TestWindow.Dotnet\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\TestPlatform\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\svf4uxbe.rfv\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\qub3c4ok.v1v\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\PreEmptiveSolutions\DotfuscatorCE\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\o3rkgae4.ems\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\neoyltg4.bmz\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools Diagnostics\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\Resource Manager\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\RemoteDebugger2.2CTP\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\RemoteDebugger\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\Deployment Project\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Windows Azure Tools\Common\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools Azure\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools Azure\WebJobs\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools Azure\ru\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools\Shared\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web Tools\Library Manager\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web\Mvc\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Web\Mvc\Scaffolding\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\WCF Connected Service\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio Tools for Unity\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\14.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\12.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\11.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Visual Studio MPF\10.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\VC\ClassWizard\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Unit Test Explorer\TestWIExtension\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\TemplateEngine\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\SQLEditor\Vsix\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\SQLDB\Vsix\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\SQLDB\SSDTUpdate\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Publish\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Portable Library Tools\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Modeling\15.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\Microsoft Office 365 Connected Service\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\ManagedProjectSystem\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\CodeSense\Framework\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\Microsoft\ADL Tools\2.3.7000.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\kzmqwvys.iuq\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\jixjdf4u.nps\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\ifcnfrm5.na3\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\hdqg42bz.ck3\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\gqqzsqai.2v0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\GitHub\GitHub\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\fzb104b4.fzt\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\fldfgssw.v3t\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\fkpwklwm.vn4\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\ewhaeoya.fnh\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\eljob5zl.bhj\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\dalofp4i.xbm\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\chvzxqpj.w4y\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\atfm2vvn.3hs\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\anvcgh0c.i33\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\41t33m3p.xqm\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\3npakkoh.yf1\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\3dirqi3p.qqy\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\1voqhn4b.ji3\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\0104n003.i2v\extension.vsixmanifest'
+08.02.2019 9:59:56 - Capping recursion at 5 directories in each extension root due to 'default limit'.
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\Visual Studio MPF\15.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\TreeNavigation\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\TreeNavigation\GraphProvider\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\Shell\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\PerfMarkers\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\ParallelDebugger\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\NavigateTo\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\NavigateTo\FileProvider\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\DotNetObjectAlloc\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\DiagnosticsHub\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\Debugger\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Platform\CPUSampling\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\XamlLanguageService\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\XamlDiagnostics\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Language Service\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\WebDiagnosticsAttach\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\ToolWindows\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\EdgeDebugAdapter\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\WebClient\Diagnostics\ChromeDebugAdapter\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Web\Razor\v3.0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Web\Exports\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Web\ASPX\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VisualStudio\Editors\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\Project\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\NavigateTo\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\VC\Editor\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TypeScript\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TextMate\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TestWindow\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TemplateProviders\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\TeamFoundation\Team Explorer\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ReferenceManager\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\RazorLanguageServices\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ProjectServices\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Project\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ProductUpdate\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Performance Tools\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\OpenFolder\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\NuGet\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\SourceBasedTestDiscovery\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\LanguageServices\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\InteractiveComponents\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ManagedLanguages\VBCSharp\ExpressionEvaluators\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\LanguageServer\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Language\GenerateType\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Language\CallHierarchy\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\InteractiveWindow\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\GettingStartedTemplates\Resources\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\FSharp\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ExtensionManager\ServiceModule\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ErrorList\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Editorconfig\Wizard\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Editor\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Diff\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\DesignTools\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\CodingConventions\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\CodeAnalysis\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ClientDiagnostics\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ClientDiagnostics\AppResponsiveness\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\ASP.NET Core\UserSecrets\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\Solution\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\NativeCode\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\ManagedProvider\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\Providers\LayerDsl\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\Microsoft\Architecture Tools\GraphProviderPackage\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\COMMONEXTENSIONS\DataDesign\extension.vsixmanifest'
+08.02.2019 9:59:56 - Capping recursion at 5 directories in each extension root due to 'default limit'.
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\zsi2ivkc.qrp\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\u2d2fhvy.wjy\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\u0ckccop.cxw\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\td2gpdek.w0m\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\t0n5ynhw.dsg\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\sgidwnhx.5qs\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\rxztjho4.z4z\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\rxrrxkgi.mt1\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\paok1a5v.qes\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\o1cp4h3y.qfu\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\ngqgwoil.gk5\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\jldnu4x4.uwh\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\JetBrains\ReSharperPlatformVs15\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\idxxfyib.lyw\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\gpa2npgz.vis\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\dolejbwc.djb\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\dof34ytm.y2b\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\diw1z5fp.smi\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\df1ymeik.l02\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\5yt0oybc.tqn\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\2aro11i4.zq0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\1jpii3yl.xu0\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\0qxexyyq.bff\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\0gsaxj0e.vwp\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\03w1thkl.lwe\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\10\Desktop SDK\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\10\SDK ARM Additions\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\10\Windows Store SDK\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\8.1\Desktop SDK\extension.vsixmanifest'
+08.02.2019 9:59:56 - Found 'C:\PROGRAM FILES (X86)\COMMON FILES\MICROSOFT\EXTENSIONMANAGER\EXTENSIONS\Microsoft\Windows Kits\8.1\Windows Store SDK\extension.vsixmanifest'
+08.02.2019 9:59:57 - Skipping 'C:\Users\-\AppData\Local\Microsoft SDKs' as it doesn't exist
+08.02.2019 9:59:57 - Начинается установка расширения Visual Studio Community 2017...
+08.02.2019 10:00:00 - Установка в Visual Studio Community 2017 успешно завершена. Расширение установлено в C:\USERS\-\APPDATA\LOCAL\MICROSOFT\VISUALSTUDIO\15.0_9E32339E\EXTENSIONS\4G43ECVX.IMD\

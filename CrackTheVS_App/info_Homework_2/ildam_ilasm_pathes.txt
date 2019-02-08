@@ -1,0 +1,1 @@
+ildasm /out="C:\Users\-\Documents\GitHub\Homeworks\CrackTheVS_App\CrackTheVS_App\bin\Debug\OperatingSystemDependencies.Lib.li" "C:\Users\-\AppData\Local\Microsoft\VisualStudio\15.0_9e32339e\Extensions\4g43ecvx.imd\OperatingSystemDependencies.dll"
