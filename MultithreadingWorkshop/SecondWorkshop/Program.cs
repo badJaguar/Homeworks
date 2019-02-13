@@ -1,6 +1,7 @@
 ﻿using Bogus;
 using System;
 using System.Collections.ObjectModel;
+using System.Threading;
 
 namespace SecondWorkshop
 {
@@ -11,16 +12,24 @@ namespace SecondWorkshop
             var bogus = new Person();
             var words = bogus.Random.WordsArray(10);
 
-            Console.WriteLine(CollectionFiller.Add(words));
+            var thread1 = new Thread(()=> CollectionFiller.AddValues(words));
+            var thread2 = new Thread(()=> CollectionFiller.PrintValues(words));
+            thread1.Start();
+            thread2.Start();
+            
             Console.ReadKey();
         }
     }
 
     public static class CollectionFiller
     {
-        public static Collection<string> Add(string[] word) => new Collection<string>
+        public static Collection<string> AddValues(string[] word) =>
+            new Collection<string>
             {
-                string.Join(" ", word)
+                string.Concat(word)
             };
+
+        public static void PrintValues(string[] words) =>
+            Console.WriteLine(string.Join(" ",words));
     }
 }

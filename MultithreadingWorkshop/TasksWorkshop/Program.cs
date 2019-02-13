@@ -15,14 +15,16 @@ namespace MultithreadingWorkshop
 
             var arr = TasksChain.DisplayArray(bytes).Result;
             var rand = randomNum.Next(1, 9);
-            Console.WriteLine($"Multiplier is {rand}");
-
-            Console.WriteLine();
+            Console.WriteLine($"Multiplier is {rand}\n");
 
             var t1 = Task.Run(() => Console.WriteLine(arr));
-            var t2 = Task.Run(() => Console.WriteLine(TasksChain.ArrayMultiplierAsync(arr, rand).Result));
-            var t3 = Task.Run(() => Console.WriteLine(TasksChain.OrderedAsync(TasksChain.ArrayMultiplierAsync(arr, rand).Result).Result));
-            var t4 = Task.Run(() => Console.WriteLine(TasksChain.AvgResultAsync(TasksChain.OrderedAsync(TasksChain.ArrayMultiplierAsync(arr, rand)
+            var t2 = Task.Run(() => Console.WriteLine(TasksChain
+                .ArrayMultiplierAsync(arr, rand).Result));
+            var t3 = Task.Run(() => Console.WriteLine(TasksChain
+                .OrderedAsync(TasksChain
+                .ArrayMultiplierAsync(arr, rand).Result).Result));
+            var t4 = Task.Run(() => Console.WriteLine(TasksChain
+                .AvgResultAsync(TasksChain.OrderedAsync(TasksChain.ArrayMultiplierAsync(arr, rand)
                 .Result).Result).Result));
             Console.ReadKey();
         }
