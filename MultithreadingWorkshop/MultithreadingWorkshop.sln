@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWorkshop", "TasksWorkshop\FirstWorkshop.csproj", "{0477915C-259F-4181-A1FB-CA96F436488B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWorkshopTask", "TasksWorkshop\FirstWorkshopTask.csproj", "{0477915C-259F-4181-A1FB-CA96F436488B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWorkshop", "SecondWorkshop\SecondWorkshop.csproj", "{B4ED0E79-D35D-4AFC-BA67-2346B47154BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondWorkshopTask", "SecondWorkshop\SecondWorkshopTask.csproj", "{B4ED0E79-D35D-4AFC-BA67-2346B47154BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdWokshopTask", "ThirdWokshopTask\ThirdWokshopTask.csproj", "{11A7DD71-FC63-4B50-A744-876EC9F83374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B4ED0E79-D35D-4AFC-BA67-2346B47154BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4ED0E79-D35D-4AFC-BA67-2346B47154BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4ED0E79-D35D-4AFC-BA67-2346B47154BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A7DD71-FC63-4B50-A744-876EC9F83374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A7DD71-FC63-4B50-A744-876EC9F83374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A7DD71-FC63-4B50-A744-876EC9F83374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A7DD71-FC63-4B50-A744-876EC9F83374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
