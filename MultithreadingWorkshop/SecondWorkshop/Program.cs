@@ -30,6 +30,6 @@ namespace SecondWorkshop
             };
 
         public static void PrintValues(string[] words) =>
-            Console.WriteLine(string.Join(" ",words));
+            Console.WriteLine(string.Join("\n",words));
     }
 }

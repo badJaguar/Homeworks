@@ -17,20 +17,26 @@ namespace MultithreadingWorkshop
             var rand = randomNum.Next(1, 9);
             Console.WriteLine($"Multiplier is {rand}\n");
 
-            var t1 = Task.Run(() => Console.WriteLine(arr));
-            var t2 = Task.Run(() => Console.WriteLine(TasksChain
-                .ArrayMultiplierAsync(arr, rand).Result));
-            var t3 = Task.Run(() => Console.WriteLine(TasksChain
-                .OrderedAsync(TasksChain
-                .ArrayMultiplierAsync(arr, rand).Result).Result));
-            var t4 = Task.Run(() => Console.WriteLine(TasksChain
-                .AvgResultAsync(TasksChain.OrderedAsync(TasksChain.ArrayMultiplierAsync(arr, rand)
-                .Result).Result).Result));
+            Console.WriteLine($"{arr}\n" +
+                              $"{ArrayMultiplierAsyncCaller()}\n" +
+                              $"{OrderedAsyncCaller()}\n" +
+                              $"{AvgResultAsyncCaller()}");
             Console.ReadKey();
+
+            string ArrayMultiplierAsyncCaller() => TasksChain
+                .ArrayMultiplierAsync(arr, rand).Result;
+
+            string OrderedAsyncCaller() => TasksChain
+                .OrderedAsync(TasksChain
+                .ArrayMultiplierAsync(arr, rand).Result).Result;
+
+            string AvgResultAsyncCaller() => TasksChain.AvgResultAsync(TasksChain
+                .OrderedAsync(TasksChain.ArrayMultiplierAsync(arr, rand)
+                .Result).Result).Result;
         }
     }
 
-    public static class TasksChain
+    static class TasksChain
     {
         public static Task<string> DisplayArray(byte[] numbers) =>
 
@@ -43,8 +49,7 @@ namespace MultithreadingWorkshop
              Task.FromResult(string.Join(" ", (
                 from n in numbers.Split()
                 let parsed = int.Parse(n)
-                select parsed * num).ToArray()))
-               .ContinueWith(task => task.Result);
+                select parsed * num).ToArray()));
 
         public static Task<string> OrderedAsync(string numbers) =>
 
@@ -52,15 +57,13 @@ namespace MultithreadingWorkshop
                     from n in numbers.Split()
                     let parsed = int.Parse(n)
                     orderby parsed descending
-                    select parsed))
-                   .ContinueWith(s => s.Result);
+                    select parsed));
 
-        public static async Task<string> AvgResultAsync(string numbers) =>
+        public static Task<string> AvgResultAsync(string numbers) =>
 
-        await Task.FromResult(string.Join(" ",
+        Task.FromResult(string.Join(" ",
                 (from n in numbers.Split()
                  let parsed = double.Parse(n)
-                 select parsed).Average()))
-                .ConfigureAwait(true);
+                 select parsed).Average()));
     }
 }
