@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0477915C-259F-4181-A1FB-CA96F436488B}</ProjectGuid>
+    <ProjectGuid>{B4ED0E79-D35D-4AFC-BA67-2346B47154BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TasksWorkshop</RootNamespace>
-    <AssemblyName>TasksWorkshop</AssemblyName>
+    <RootNamespace>SecondWorkshop</RootNamespace>
+    <AssemblyName>SecondWorkshop</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
