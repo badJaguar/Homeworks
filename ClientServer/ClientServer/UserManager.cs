@@ -7,12 +7,10 @@ namespace Server
 {
     public class UserManager
     {
-        public void User(Socket client, string name)
+        public void User(Socket client, string name, Dictionary<int, string> myDict) 
         {
             var generator = new NameGenerator();
             generator.Generate();
-
-            var myDict = new Dictionary<int, string>();
 
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine($"\n'{generator.Name}' connected to server\n");

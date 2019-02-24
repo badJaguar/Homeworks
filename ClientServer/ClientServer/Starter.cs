@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -25,7 +26,7 @@ namespace Server
                 var manager = new UserManager();
                 var socket = serverListener.Accept();
 
-                var userThread = new Thread(() => manager.User(socket, generator.Name));
+                var userThread = new Thread(() => manager.User(socket, generator.Name, generator.Dictionary = new Dictionary<int, string>()));
                 userThread.Start();
 
                 if (!userThread.IsAlive)

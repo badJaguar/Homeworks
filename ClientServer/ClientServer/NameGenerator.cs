@@ -7,7 +7,7 @@ namespace Server
     {
         public string Name { get; set; }
         public int Id { get; set; }
-        public Dictionary<int,string> Dictionary { get; set; }
+        public Dictionary<int, string> Dictionary { get; set; }
 
         public void Generate()
         {
