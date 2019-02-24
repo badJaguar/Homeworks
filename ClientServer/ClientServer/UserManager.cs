@@ -7,19 +7,17 @@ namespace Server
 {
     public class UserManager
     {
-        public string Name { get; set; }
-
         public void User(Socket client, string name)
         {
-            Generate();
+            var generator = new NameGenerator();
+            generator.Generate();
+
+            var myDict = new Dictionary<int, string>();
 
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"\n'{this.Name}' connected to server\n");
+            Console.WriteLine($"\n'{generator.Name}' connected to server\n");
             Console.ForegroundColor = ConsoleColor.Gray;
-
-            var names = new Dictionary<int, string> {{client.GetHashCode(), Name}};
-            Console.WriteLine(string.Join(" ", names.Values));
-
+            
             while (true)
             {
                 try
@@ -27,20 +25,25 @@ namespace Server
                     var message = new byte[1024];
                     var size = client.Receive(message);
                     client.Send(message, 0, size, SocketFlags.None);
-                    Console.WriteLine($"{this.Name}: {Encoding.UTF8.GetString(message, 0, size)}");
+                    Console.WriteLine($"{generator.Name}: {Encoding.UTF8.GetString(message, 0, size)}");
+
+                    //Console.WriteLine(generator.WriteNames());
+                    if (!myDict.ContainsKey(generator.Name.GetHashCode()))
+                    {
+                        myDict.Add(generator.Name.GetHashCode(), generator.Name);
+                    }
+                    Console.WriteLine(generator.WriteNames());
                 }
 
                 catch (SocketException)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"\n{this.Name} leaved a chat\n");
+                    Console.WriteLine($"\n{generator.Name} leaved a chat\n");
                     Console.ResetColor();
                     return;
                 }
 
             }
         }
-
-        private void Generate() => this.Name = new Bogus.Person().UserName;
     }
 }

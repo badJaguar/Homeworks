@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
@@ -10,6 +11,7 @@ namespace Server
 
         public void StartServer()
         {
+            var generator = new NameGenerator();
             var port = 11000;
             const string ipAddress = "127.0.0.1";
             var serverListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
@@ -23,8 +25,9 @@ namespace Server
                 var manager = new UserManager();
                 var socket = serverListener.Accept();
 
-                var userThread = new Thread(() => manager.User(socket, manager.Name));
+                var userThread = new Thread(() => manager.User(socket, generator.Name));
                 userThread.Start();
+
                 if (!userThread.IsAlive)
                 {
                     Console.WriteLine($"{userThread} leaved a chat.");
