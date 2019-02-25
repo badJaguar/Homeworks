@@ -11,7 +11,6 @@ namespace Server
     {
         public void StartServer()
         {
-            var generator = new NameGenerator();
             var namesDict = new Dictionary<int, string>();
             var mesDict = new Dictionary<Dictionary<int, string>, string>();
 
