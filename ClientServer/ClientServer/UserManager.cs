@@ -9,6 +9,9 @@ using System.Threading;
 
 namespace Server
 {
+    /// <summary>
+    /// Represents a logic structure of user management.
+    /// </summary>
     public class UserManager
     {
         public void User(Socket client, Dictionary<int, string> usersDict)
@@ -30,14 +33,11 @@ namespace Server
                     var encodedMessage = Encoding.UTF8.GetString(message, 0, size);
                     Console.WriteLine($"{generator.Name}: {encodedMessage}");
 
-                    if (!usersDict.ContainsKey(generator.Name.GetHashCode()))
-                    {
-                        usersDict.Add(generator.Name.GetHashCode(), generator.Name);
-                    }
+                    NamesWriter(usersDict, generator);
 
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine(string.Format($"{string.Join(" ", usersDict.Values)}: {encodedMessage}"));
-                    Console.ResetColor();
+                    //Console.ForegroundColor = ConsoleColor.Cyan;
+                    //Console.WriteLine(string.Format($"{string.Join(" ", usersDict.Values)}: {encodedMessage}"));
+                    //Console.ResetColor();
                 }
                 catch (SocketException)
                 {
@@ -48,7 +48,13 @@ namespace Server
                 }
             }
         }
-
+        
+        /// <summary>
+        /// It is my fail((.
+        /// </summary>
+        /// <param name="client"></param>
+        /// <param name="usersDict"></param>
+        /// <param name="mes"></param>
         public void ShareMessages(Socket client, Dictionary<int, string> usersDict,
             Dictionary<Dictionary<int, string>, string> mes)
         {
@@ -68,6 +74,17 @@ namespace Server
                     Console.ResetColor();
                 }
             }
+        }
+
+        /// <summary>
+        /// Provides saving user names and those IDs into Dictionary.
+        /// </summary>
+        /// <param name="usersDict"></param>
+        /// <param name="generator"></param>
+        private static void NamesWriter(Dictionary<int, string> usersDict, NameGenerator generator)
+        {
+            if (!usersDict.ContainsKey(generator.Name.GetHashCode()))
+                usersDict.Add(generator.Name.GetHashCode(), generator.Name);
         }
     }
 }
