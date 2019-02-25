@@ -29,7 +29,7 @@ namespace Server
                 {
                     var manager = new UserManager();
                     var socket = serverListener.Accept();
-                    var userThread = new Thread(() => manager.User(socket, generator.Name, namesDict));
+                    var userThread = new Thread(() => manager.User(socket, namesDict));
                     //var messageThread = new Thread(() => manager.ShareMessages(socket, generator.Name, namesDict, mesDict));
                     userThread.Start();
                 }

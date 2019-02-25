@@ -11,7 +11,7 @@ namespace Server
 {
     public class UserManager
     {
-        public void User(Socket client, string name, Dictionary<int, string> usersDict)
+        public void User(Socket client, Dictionary<int, string> usersDict)
         {
             var generator = new NameGenerator();
             generator.Generate();
