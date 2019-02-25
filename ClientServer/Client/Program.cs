@@ -16,20 +16,21 @@ namespace Client
         {
             var port = 11000;
             const string ipAddress = "127.0.0.1";
-            var clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-            var endPoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
-            clientSocket.Connect(endPoint);
-            Console.WriteLine($"You connected to {endPoint}");
-
-            while (true)
+            using (var clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
             {
-                var message = new Bogus.Person().Random.Words(5);
-                clientSocket.Send(Encoding.UTF8.GetBytes(message));
+                var endPoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
+                clientSocket.Connect(endPoint);
+                Console.WriteLine($"You connected to {endPoint}");
 
-                var serverMessage = new byte[1024];
-                var size = clientSocket.Receive(serverMessage);
-                Console.WriteLine($"Me: {Encoding.UTF8.GetString(serverMessage, 0, size)}");
-                Thread.Sleep(5000);
+                while (true)
+                {
+                    var message = new Bogus.Person().Random.Words(5);
+                    clientSocket.Send(Encoding.UTF8.GetBytes(message));
+                    var serverMessage = new byte[1024];
+                    var size = clientSocket.Receive(serverMessage);
+                    Console.WriteLine($"Me: {Encoding.UTF8.GetString(serverMessage, 0, size)}");
+                    Thread.Sleep(5000);
+                }
             }
         }
     }

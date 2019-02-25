@@ -24,7 +24,6 @@ namespace Server
                 Console.WriteLine(e.Message);
                 throw;
             }
-           
         }
     }
 }
