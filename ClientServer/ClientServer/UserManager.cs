@@ -30,11 +30,14 @@ namespace Server
                     var encodedMessage = Encoding.UTF8.GetString(message, 0, size);
                     Console.WriteLine($"{generator.Name}: {encodedMessage}");
 
-
                     if (!usersDict.ContainsKey(generator.Name.GetHashCode()))
                     {
                         usersDict.Add(generator.Name.GetHashCode(), generator.Name);
                     }
+
+                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine(string.Format($"{string.Join(" ", usersDict.Values)}: {encodedMessage}"));
+                    Console.ResetColor();
                 }
                 catch (SocketException)
                 {
@@ -46,7 +49,7 @@ namespace Server
             }
         }
 
-        public void ShareMessages(Socket client, string name, Dictionary<int, string> usersDict,
+        public void ShareMessages(Socket client, Dictionary<int, string> usersDict,
             Dictionary<Dictionary<int, string>, string> mes)
         {
             var generator = new NameGenerator();
@@ -60,7 +63,7 @@ namespace Server
                 if (!mes.ContainsKey(usersDict))
                 {
                     mes.Add(usersDict, encodedMessage);
-                    Console.ForegroundColor = ConsoleColor.Cyan;
+                    var b = Console.ForegroundColor == ConsoleColor.Cyan;
                     Console.WriteLine($"{generator.Name}: {encodedMessage}");
                     Console.ResetColor();
                 }
