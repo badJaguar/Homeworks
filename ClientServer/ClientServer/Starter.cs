@@ -9,6 +9,9 @@ namespace Server
 {
     public class Starter
     {
+        /// <summary>
+        /// Activates server.
+        /// </summary>
         public void StartServer()
         {
             var namesDict = new Dictionary<int, string>();
@@ -17,6 +20,17 @@ namespace Server
             const int port = 11000;
             const string ipAddress = "127.0.0.1";
 
+            Listen(ipAddress, port, namesDict);
+        }
+
+        /// <summary>
+        /// Represents a server listener.
+        /// </summary>
+        /// <param name="ipAddress">Local IP Address</param>
+        /// <param name="port">Local port.</param>
+        /// <param name="namesDict">A collection of KeyValuePair where values are names and keys are those hash codes.</param>
+        private static void Listen(string ipAddress, int port, Dictionary<int, string> namesDict)
+        {
             using (var serverListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp))
             {
                 var endPoint = new IPEndPoint(IPAddress.Parse(ipAddress), port);
