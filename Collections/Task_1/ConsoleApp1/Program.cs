@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Linq;
 
 public class Program
@@ -22,7 +21,7 @@ public class Program
 
     public class DbGenerator
     {
-        private static Random _random = new Random((int)DateTime.Now.Ticks);
+        private static Random _random = new Random((int) DateTime.Now.Ticks);
 
         private static string[] _firstNames = new string[]
         {
@@ -47,7 +46,7 @@ public class Program
             "Davis",
             "Miller"
         };
-        
+
         public IEnumerable<List<DbEntity>> GetSequence(int count)
         {
             var list = new List<DbEntity>(count);
@@ -76,9 +75,9 @@ public class Program
             _lastName = lastName;
         }
 
-        public override bool Equals(object other)
+        public override bool Equals(object obj)
         {
-            return base.Equals(other);
+            return base.Equals(obj);
         }
 
         public override int GetHashCode()
@@ -110,40 +109,24 @@ public class Program
     public class Database
     {
         private readonly List<DbEntity> _entities = new List<DbEntity>();
-        private readonly Dictionary<FirstLastKey, List<DbEntity>> _fnDict = new Dictionary<FirstLastKey, List<DbEntity>>();
-        private readonly Dictionary<AgeKey, List<DbEntity>> _ageDict = new Dictionary<AgeKey, List<DbEntity>>();
+
+        private readonly Dictionary<FirstLastKey, List<DbEntity>> _fnDict =
+            new Dictionary<FirstLastKey, List<DbEntity>>();
 
         public void AddRange(IEnumerable<DbEntity> entities)
         {
             _entities.AddRange(entities);
-            var fnKeys = (from e in entities
-                let w = new FirstLastKey(e.FirstName, e.LastName)
-                select w).ToArray();
+            // TODO #1 Set dictionary with key-value pairs.
 
-            var ageKeys = (from e in entities
-                let w = new AgeKey(e.Age)
-                select w).ToArray();
-
-            var collection =
-                from f in fnKeys
-                from a in ageKeys
-                select new {FnKeys = f, AgeKeys = a};
-
-            foreach (var d in collection)
-            {
-                _ageDict.Add(d.AgeKeys, _entities);
-                _fnDict.Add(d.FnKeys, _entities);
-                return;
-            }
         }
 
         public List<DbEntity> FindBy(string firstName, string lastName)
         {
             var list = new List<DbEntity>();
             var e = from r in _entities
-                    where r.FirstName == firstName & 
-                          r.LastName == lastName
-                    select r;
+                where r.FirstName == firstName &
+                      r.LastName == lastName
+                select r;
             list.AddRange(e);
             return list;
         }
@@ -152,8 +135,8 @@ public class Program
         {
             var list = new List<DbEntity>();
             var e = from r in _entities
-                    where r.Age == age
-                    select r;
+                where r.Age == age
+                select r;
             list.AddRange(e);
             return list;
         }
@@ -163,10 +146,11 @@ public class Program
     {
         var dbGenerator = new DbGenerator();
         var db = new Database();
-
         var orderDbEntities = from d in dbGenerator.GetSequence(1000)
-                 from g in d select g;
-            db.AddRange(orderDbEntities);
+            from s in d
+            select s;
+        db.AddRange(orderDbEntities);
+
         var items = db.FindBy("Jack", "Jones");
         Console.WriteLine(items.Count);
 
