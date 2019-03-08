@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Diagnostics;
-using System.Linq;
 
 public class Program
 {
@@ -48,20 +45,27 @@ public class Program
             "Miller"
         };
         
-        public IEnumerable<List<DbEntity>> GetSequence(int count)
+        public IEnumerable<DbEntity> GetSequence(int count)
         {
-            var list = new List<DbEntity>(count);
             for (int i = 0; i < count; i++)
             {
-                list.Add(new DbEntity
+                yield return new DbEntity
                 {
                     FirstName = _firstNames[_random.Next(_firstNames.Length - 1)],
                     LastName = _lastNames[_random.Next(_lastNames.Length - 1)],
                     Age = _random.Next(18, 60)
-                });
+                };
             }
+        }
 
-            yield return list;
+        public IEnumerable<DbEntity> GetSequence()
+        {
+            yield return new DbEntity
+            {
+                FirstName = _firstNames[_random.Next(_firstNames.Length - 1)],
+                LastName = _lastNames[_random.Next(_lastNames.Length - 1)],
+                Age = _random.Next(18, 60)
+            };
         }
     }
 
@@ -69,43 +73,50 @@ public class Program
     {
         private readonly string _firstName;
         private readonly string _lastName;
-
+        
         public FirstLastKey(string firstName, string lastName)
         {
             _firstName = firstName;
             _lastName = lastName;
         }
 
-        public override bool Equals(object other)
-        {
-            return base.Equals(other);
-        }
+        public override bool Equals(object other) =>
+            this._firstName.Equals(other) && this._lastName.Equals(other);
 
         public override int GetHashCode()
         {
-            return base.GetHashCode();
+            unchecked
+            {
+                var hash = 17;
+                hash = hash * 23 + _firstName.GetHashCode();
+                var hash1 = hash * 22 + _lastName.GetHashCode();
+                return hash1;
+            }
         }
     }
 
-    public struct AgeKey
-    {
-        private readonly int _age;
-
-        public AgeKey(int age)
+        public struct AgeKey
         {
-            _age = age;
-        }
+            private readonly int _age;
+            public AgeKey(int age)
+            {
+                this._age = age;
+            }
 
-        public override bool Equals(object obj)
-        {
-            return base.Equals(obj);
-        }
+            public override bool Equals(object obj)=>
+                this._age.Equals(obj);
 
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
+
+            public override int GetHashCode()
+            {
+                unchecked
+                {
+                    int hash = 17;
+                    hash = hash * 23 + _age.GetHashCode();
+                    return hash;
+                }
+            }
         }
-    }
 
     public class Database
     {
@@ -116,46 +127,23 @@ public class Program
         public void AddRange(IEnumerable<DbEntity> entities)
         {
             _entities.AddRange(entities);
-            var fnKeys = (from e in entities
-                let w = new FirstLastKey(e.FirstName, e.LastName)
-                select w).ToArray();
-
-            var ageKeys = (from e in entities
-                let w = new AgeKey(e.Age)
-                select w).ToArray();
-
-            var collection =
-                from f in fnKeys
-                from a in ageKeys
-                select new {FnKeys = f, AgeKeys = a};
-
-            foreach (var d in collection)
+            foreach (var entity in _entities)
             {
-                _ageDict.Add(d.AgeKeys, _entities);
-                _fnDict.Add(d.FnKeys, _entities);
-                return;
+                var key = new FirstLastKey(entity.FirstName, entity.LastName);
+                if (!_fnDict.ContainsKey(key)) continue;
+                _fnDict[key].Add(entity);
             }
         }
 
-        public List<DbEntity> FindBy(string firstName, string lastName)
+        public IList<DbEntity> FindBy(string firstName, string lastName)
         {
-            var list = new List<DbEntity>();
-            var e = from r in _entities
-                    where r.FirstName == firstName & 
-                          r.LastName == lastName
-                    select r;
-            list.AddRange(e);
-            return list;
+            return new DbEntity[] { };
         }
 
         public IList<DbEntity> FindBy(int age)
         {
-            var list = new List<DbEntity>();
-            var e = from r in _entities
-                    where r.Age == age
-                    select r;
-            list.AddRange(e);
-            return list;
+            // TODO #2 Add AgeKey struct, dictionary and implement FinbBy method.
+            return new DbEntity[] { };
         }
     }
 
@@ -163,14 +151,13 @@ public class Program
     {
         var dbGenerator = new DbGenerator();
         var db = new Database();
+        db.AddRange(dbGenerator.GetSequence(10000));
 
-        var orderDbEntities = from d in dbGenerator.GetSequence(1000)
-                 from g in d select g;
-            db.AddRange(orderDbEntities);
         var items = db.FindBy("Jack", "Jones");
         Console.WriteLine(items.Count);
 
         var items2 = db.FindBy(30);
         Console.WriteLine(items2.Count);
+        Console.ReadKey();
     }
 }

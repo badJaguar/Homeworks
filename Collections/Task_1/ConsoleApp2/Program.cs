@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 
 public class Program
 {
@@ -46,8 +45,6 @@ public class Program
             "Miller"
         };
 
-        // TODO mplement GetSequence method using yield.
-        // Solution
         public IEnumerable<DbEntity> GetSequence(int count)
         {
             for (int i = 0; i < count; i++)
@@ -59,6 +56,11 @@ public class Program
                     Age = _random.Next(18, 60)
                 };
             }
+        }
+
+        public IEnumerable<DbEntity> GetSequence()
+        {
+            return GetSequence(100);
         }
     }
 
@@ -73,27 +75,27 @@ public class Program
             _lastName = lastName;
         }
 
-        // Solution
-        public bool Equals(FirstLastKey otherValue)
-        {
-            return _firstName == otherValue._firstName && _lastName == otherValue._lastName;
-        }
-
         public override bool Equals(object obj)
         {
-            // TODO #1 Implement Equals method.
-            // Solution
-            return obj is FirstLastKey && Equals((FirstLastKey)obj);
+            bool flag = obj is FirstLastKey;
+
+            if (flag)
+            {
+                var _obj = (FirstLastKey)obj;
+
+                return _obj._firstName.Equals(this._firstName)
+                    && _obj._lastName.Equals(this._lastName);
+            }
+
+            return false;
         }
 
         public override int GetHashCode()
         {
-            // TODO #1 Implement GetHashCode method.
-            // Solution
-            return _firstName.GetHashCode() ^ _lastName.GetHashCode();
+            return (this._firstName.GetHashCode())
+                 & (this._lastName.GetHashCode());
         }
     }
-
 
     public struct AgeKey
     {
@@ -104,27 +106,24 @@ public class Program
             _age = age;
         }
 
-        // Solution
-        public bool Equals(AgeKey otherValue)
-        {
-            return _age == otherValue._age;
-        }
-
         public override bool Equals(object obj)
         {
-            // TODO #1 Implement Equals method.
-            // Solution
-            return obj is AgeKey && Equals((AgeKey)obj);
+            bool flag = obj is AgeKey;
+
+            if (flag)
+            {
+                var _obj = (AgeKey)obj;
+                return _obj._age.Equals(this._age);
+            }
+
+            return false;
         }
 
         public override int GetHashCode()
         {
-            // TODO #1 Implement GetHashCode method.
-            // Solution
-            return _age.GetHashCode();
+            return this._age.GetHashCode();
         }
     }
-
 
     public class Database
     {
@@ -132,60 +131,55 @@ public class Program
         private readonly Dictionary<FirstLastKey, List<DbEntity>> _fnDict = new Dictionary<FirstLastKey, List<DbEntity>>();
         private readonly Dictionary<AgeKey, List<DbEntity>> _ageDict = new Dictionary<AgeKey, List<DbEntity>>();
 
-
         public void AddRange(IEnumerable<DbEntity> entities)
         {
-            if (entities == null)
-            {
-                throw new ArgumentNullException("The input data can not be null.");
-            }
-
             _entities.AddRange(entities);
+            AddRangeToFirstLastDictionary(entities);
+            AddRangeToAgeDictionary(entities);
+        }
 
-            // TODO #1 Set dictionary with key-value pairs.
-            // Solution   //TODO if collection is not null but empty than _entities[0].FirstName - exception ??
-            var fnKey = new FirstLastKey(_entities[0].FirstName, _entities[0].LastName);
-            var ageKey = new AgeKey(_entities[0].Age);
+        private void AddRangeToFirstLastDictionary(IEnumerable<DbEntity> entities)
+        {
+            foreach (var entity in entities)
+            {
+                FirstLastKey key = new FirstLastKey(entity.FirstName, entity.LastName);
 
-            _fnDict.Add(fnKey, _entities);
-            _ageDict.Add(ageKey, _entities);
+                if (_fnDict.ContainsKey(key))
+                {
+                    _fnDict[key].Add(entity);
+
+                    continue;
+                }
+
+                _fnDict.Add(key, new List<DbEntity>() { entity });
+            }
+        }
+
+        private void AddRangeToAgeDictionary(IEnumerable<DbEntity> entities)
+        {
+            foreach (var entity in entities)
+            {
+                AgeKey key = new AgeKey(entity.Age);
+
+                if (_ageDict.ContainsKey(key))
+                {
+                    _ageDict[key].Add(entity);
+
+                    continue;
+                }
+
+                _ageDict.Add(key, new List<DbEntity>() { entity });
+            }
         }
 
         public IList<DbEntity> FindBy(string firstName, string lastName)
         {
-            // TODO #1 Implement FinbBy method.
-            // Solution 
-            List<DbEntity> soughtValues = new List<DbEntity>();
-
-            foreach (var item in _fnDict.Values)
-            {
-                Find(e => e.FirstName == firstName && e.LastName == lastName, item, soughtValues);
-            }
-
-            return soughtValues;
+            return _fnDict[new FirstLastKey(firstName, lastName)];
         }
 
         public IList<DbEntity> FindBy(int age)
         {
-            // TODO #2 Add AgeKey struct, dictionary and implement FinbBy method.
-            // Solution
-            List<DbEntity> soughtValues = new List<DbEntity>();
-
-            foreach (var item in _ageDict.Values)
-            {
-                Find(e => e.Age == age, item, soughtValues);
-            }
-
-            return soughtValues;
-        }
-
-        private void Find(Predicate<DbEntity> predicate, List<DbEntity> items, List<DbEntity> soughtValues)
-        {
-            var soughtEntity = items.Find(predicate);
-            if (soughtEntity != null)
-            {
-                soughtValues.Add(soughtEntity);
-            }
+            return _ageDict[new AgeKey(age)];
         }
     }
 
@@ -200,6 +194,5 @@ public class Program
 
         var items2 = db.FindBy(30);
         Console.WriteLine(items2.Count);
-        Console.ReadKey();
     }
 }
