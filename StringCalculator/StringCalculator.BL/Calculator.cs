@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StringCalculator.BL
 {
@@ -11,16 +8,26 @@ namespace StringCalculator.BL
     {
         public int Add(string numbers)
         {
-            if (numbers is " " || numbers is "")
+            int t;
+
+            if (numbers is " " || string.IsNullOrEmpty(numbers))
                 return 0;
 
-            var num = numbers.Split(',');
-
-            var t = (from n in num
-                let parsed = int.Parse(n)
-                select parsed).Sum();
+            var split = numbers.Split(',', ' ', ';', '/', '|');
+            
+            try
+            {
+                t = (from s in split
+                    where s != string.Empty
+                    let parsed = int.Parse(s, NumberStyles.Integer)
+                    select parsed).Sum();
+            }
+            catch (OverflowException e)
+            {
+                Console.WriteLine(e.Message);
+                return 0;
+            }
             return t;
         }
-       
     }
 }
