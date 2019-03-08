@@ -18,8 +18,8 @@ namespace StringCalculator.BL
             try
             {
                 t = (from s in split
-                    where s != string.Empty
-                    let parsed = int.Parse(s, NumberStyles.Integer)
+                    where s != string.Empty ^ numbers is " " ^ string.IsNullOrEmpty(numbers)
+                     let parsed = int.Parse(s, NumberStyles.Integer)
                     select parsed).Sum();
             }
             catch (OverflowException e)
