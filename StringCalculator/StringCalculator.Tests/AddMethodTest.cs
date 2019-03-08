@@ -32,13 +32,23 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsSumOfTwoMembers()
+        public void Add_ReturnsSumOfTwoMembersWithCommaDivider()
         {
             var calc = new Calculator();
 
             var actual = calc.Add("1,2");
 
             Assert.AreEqual(3, actual);
+        }
+
+        [Test]
+        public void Add_ReturnsSumThreeTwoMembersWithCommaDivider()
+        {
+            var calc = new Calculator();
+
+            var actual = calc.Add("1,2,3");
+
+            Assert.AreEqual(6, actual);
         }
     }
 }
