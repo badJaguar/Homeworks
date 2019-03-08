@@ -10,7 +10,7 @@ namespace StringCalculator.BL
     {
         public int Add(string numbers)
         {
-            if (numbers is "")
+            if (numbers is " ")
             {
                 return 0;
             }

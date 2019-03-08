@@ -30,5 +30,15 @@ namespace StringCalculator.Tests
 
             Assert.AreEqual(1, actual);
         }
+
+        [Test]
+        public void Add_ReturnsSumOfTwoMembers()
+        {
+            var calc = new Calculator();
+
+            var actual = calc.Add("1,2");
+
+            Assert.AreEqual(3, actual);
+        }
     }
 }
