@@ -8,18 +8,16 @@ namespace StringCalculator.BL
     {
         public int Add(string numbers)
         {
-            int t;
+            int number;
 
             if (numbers is " " || string.IsNullOrEmpty(numbers))
                 return 0;
 
-            var split = numbers.Split(',', ' ', ';', '/', '|');
-            
             try
             {
-                t = (from s in split
-                    where s != string.Empty ^ numbers is " " ^ string.IsNullOrEmpty(numbers)
-                     let parsed = int.Parse(s, NumberStyles.Integer)
+                number = (from s in numbers.Split(',', ' ', ';', '/', '|', ':', '(') // And many other symbols.
+                    where s != string.Empty
+                    let parsed = int.Parse(s, NumberStyles.Integer)
                     select parsed).Sum();
             }
             catch (OverflowException e)
@@ -27,7 +25,7 @@ namespace StringCalculator.BL
                 Console.WriteLine(e.Message);
                 return 0;
             }
-            return t;
+            return number;
         }
     }
 }
