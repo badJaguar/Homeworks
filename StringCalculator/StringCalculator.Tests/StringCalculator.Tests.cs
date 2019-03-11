@@ -12,18 +12,20 @@ namespace StringCalculator.Tests
         [SetUp]
         public void Init()
         {
+            // Arrange.
             calc = new Calculator();
         }
         [Test]
-        public void Add_ReturnsDefaultValue()
+        public void Add_Whitespace_DefaultValue()
         {
+            // Act.
             var actual = calc.Add(" ");
-
+            //Assert.
             Assert.AreEqual(0, actual);
         }
 
         [Test]
-        public void Add_ReturnsNumber()
+        public void Add_SingleNumber_Number()
         {
             var actual = calc.Add("1");
 
@@ -31,7 +33,7 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsSumOfTwoMembersWithCommaDivider()
+        public void Add_TwoNumbersWithCommaDivider_SumOfTwoNumbers()
         {
             var actual = calc.Add("1,2");
 
@@ -39,7 +41,7 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsSumThreeTwoMembersWithCommaDivider()
+        public void Add_ThreeNumbersWithCommaDivider_SumOfThreeNumbers()
         {
             var actual = calc.Add("1,2,3");
 
@@ -47,7 +49,7 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsSumOfAnyDividerWithAnyCountOfNums()
+        public void Add_AnyDivider_SumOfNumbers()
         {
             var actual = calc.Add("1/ 2//3;4");
 
@@ -55,7 +57,7 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsZeroIfStringEmpty()
+        public void Add_StringEmpty_DefaultValue()
         {
             var actual = calc.Add(string.Empty);
 
@@ -63,7 +65,7 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsZeroIfNull()
+        public void Add_Null_DefaultValue()
         {
             var actual = calc.Add(null);
 
@@ -71,21 +73,21 @@ namespace StringCalculator.Tests
         }
 
         [Test]
-        public void Add_ReturnsZeroIfOverflow()
+        public void Add_OverflowException_DefaultValue()
         {
             var actual = calc.Add("99999999999999999999999999999999999999999999");
 
             Assert.AreEqual(0, actual);
         }
 
-        [Test]
-        public void Add_DoesNotTrowsOverflowException()
-        {
-            Assert.That(Add_ReturnsZeroIfOverflow, Throws.Nothing);
-        }
+        //[Test]
+        //public void Add_OverflowException_Handled()
+        //{
+        //    Assert.That(Add_OverflowException_DefaultValue, Throws.Nothing);
+        //}
 
         [Test]
-        public void Add_ReturnsMessageAndCatchesExceptionIfOverflowException()
+        public void Add_OverflowException_MessageAndDefaultValue()
         {
             var ex = new OverflowException();
             var message = ex.Message;
