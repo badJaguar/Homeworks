@@ -146,7 +146,6 @@ public class Program
             }
         }
 
-
         public List<DbEntity> FindBy(string firstName, string lastName)
         {
             return _entities.Any(orderEntity => 

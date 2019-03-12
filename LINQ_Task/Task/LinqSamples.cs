@@ -240,7 +240,7 @@ namespace SampleQueries
         
         [Category("Homework tasks")]
         [Title("Task 9")]
-        [Description("This sample returns grouped products by categories")]
+        [Description("This sample returns average city's turnover etc., as in DQL tasks.docx")]
         public void Linq12()
         {
             var data =
