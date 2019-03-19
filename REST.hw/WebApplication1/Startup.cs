@@ -36,9 +36,11 @@ namespace REST.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMemoryCache();
+
             services.AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
-                .AddFluentValidation(fv => 
+                .AddFluentValidation(fv =>
                     fv.RegisterValidatorsFromAssemblyContaining<UpdatePersonRequestValidator>());
 
             services.AddSwaggerGen(c =>
@@ -50,14 +52,13 @@ namespace REST.WebApi
                     Description = "Testing"
                 });
                 c.IncludeXmlComments(
-                    System.IO.Path.Combine(
-                        System.AppContext.BaseDirectory, "REST.WebApi.xml"));
-
+                    filePath: System.IO.Path.Combine(
+                        AppContext.BaseDirectory, "REST.WebApi.xml"));
             });
             Mapper.Initialize(cfg => cfg.AddProfile<PersonProfile>());
-            
-            services.AddDbContext<PersonContext>();
+
             services.AddAutoMapper();
+            services.AddDbContext<PersonContext>();
             services.AddScoped<IRepository, Repository>();
             services.AddScoped<IPersonService, PersonService>();
         }
@@ -72,9 +73,7 @@ namespace REST.WebApi
 
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyAPI V1");
-                });
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyAPI V1"));
             }
             else
             {
