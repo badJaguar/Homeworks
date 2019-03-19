@@ -29,14 +29,16 @@ namespace Parser.BL
             return values;
         }
 
-        public async Task ParseHtml()
+        public async Task ParseHtml(string url)
         {
+            ////url = "https://metanit.com";
             var config = Configuration.Default.WithDefaultLoader();
             var context = BrowsingContext.New(config);
-            var document = await context.OpenAsync("https://metanit.com");
-
-            using (FileStream fs = 
-                File.Create(@"C:\Users\aleks\Desktop\New folder\some.html", 1024))
+            var document = await context.OpenAsync(url);
+            var elements = document.QuerySelectorAll("a");
+            foreach(var element in elements)
+            using (FileStream fs =
+                File.Create($"C:\\Users\\aleks\\Desktop\\New folder\\{element.ClassName}.html", 1024))
             {
                 var info = new UTF8Encoding(true)
                     .GetBytes(document.ToHtml());

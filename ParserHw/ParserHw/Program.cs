@@ -21,12 +21,14 @@ namespace ParserHw
             //Console.Write("Paste a URL: ");
 
             //var url = Console.ReadLine();
-            var refs = Task.Run(async () => await parser.GetRefs("https://metanit.com"));
-            foreach (var c in refs.Result)
+            var url = "https://metanit.com";
+            var p = Task.Run(async () => await parser.ParseHtml(url));
+            var links = parser.GetRefs(url);
+            foreach (var link in links.Result)
             {
-                Console.WriteLine(c);
+                Task.Run(async () => await parser.ParseHtml(link));
             }
-            parser.ParseHtml();
+
             Console.ReadKey();
         }
 
